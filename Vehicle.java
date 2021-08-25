@@ -32,10 +32,22 @@ public abstract class Vehicle {
     }
 
     public void setNumberOfPassengers(int totalPassengers) {
-        numberOfPassengers += totalPassengers;
+        numberOfPassengers = totalPassengers;
     }
 
     public String getColor() {
         return color;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getMaxNumberOfPassengers() {
+        return maxNumberOfPassengers;
     }
 }

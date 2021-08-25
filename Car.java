@@ -24,10 +24,10 @@ public class Car extends Vehicle {
 
 
     public void addPassenger(int numberOfPassengers) {
-      // int addedPassenger = getNumberOfPassengers();
-       //int totalPassengers = addedPassenger + numberOfPassengers;
+//       int addedPassenger = getNumberOfPassengers();
+//       int totalPassengers = addedPassenger + numberOfPassengers;
        setNumberOfPassengers(getNumberOfPassengers() + numberOfPassengers);
-       // setNumberOfPassengers(totalPassengers);
+//        setNumberOfPassengers(totalPassengers);
     }
 
     public void removePassenger() {
@@ -35,9 +35,10 @@ public class Car extends Vehicle {
         getNumberOfPassengers();
     }
 
-//    public String toString() {
-//        String outPut = " | The " + " | " + getColor()
-//    }
+    public String toString() {
+        String outPut = " | The " + getColor() + " " + getManufacturer() + " " + getModel() + " has " + getNumberOfPassengers() + " passenger(s)" + " | ";
+        return outPut;
+    }
 
 
 
