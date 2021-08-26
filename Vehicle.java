@@ -23,7 +23,7 @@ public abstract class Vehicle {
 
     public abstract void removePassenger();
 
-    //public abstract String toString();
+    public abstract String toString();
 
 
 

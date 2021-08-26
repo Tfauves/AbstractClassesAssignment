@@ -24,10 +24,7 @@ public class Car extends Vehicle {
 
 
     public void addPassenger(int numberOfPassengers) {
-//       int addedPassenger = getNumberOfPassengers();
-//       int totalPassengers = addedPassenger + numberOfPassengers;
        setNumberOfPassengers(getNumberOfPassengers() + numberOfPassengers);
-//        setNumberOfPassengers(totalPassengers);
     }
 
     public void removePassenger() {
